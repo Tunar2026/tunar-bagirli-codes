@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./BMW.jpg) , url(./mercedes.jpg);
+    background-repeat: no-repeat;
+    background-size: 20% , 12%;
+    background-attachment: fixed;
+    background-position: left top , right bottom;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+h4{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+     background-color: #ff4d4d; 
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 25px;
+    margin-left: 720px;
+    margin-top: 20px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
