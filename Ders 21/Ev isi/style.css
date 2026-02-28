@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 2px solid;
+    padding: 10px;
+}
+
+th{
+    background-color: greenyellow;
+}
+
+th:hover{
+    background-color: red;
+    cursor: no-drop;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+h1{
+    color: black;
+}
+
+h1:hover{
+    color: blue;
+}
+
+td:hover{
+    background-color: aqua;
+}
+
