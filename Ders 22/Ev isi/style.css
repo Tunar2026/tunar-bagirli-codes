@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+     background-color: #add8e6; 
+    
+ }
+.Sekil {
+    width: 150px;
+    text-align: center;
+    
+ }
+  
+    /* 2ci cədvəl  */
+
+table {
+     width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+th, td {
+     border: 1px solid black;
+     padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #add8e6; /* Açıq mavi rəng */
+    
+}
+
+.Email{
+     width: 40%;
+ }
