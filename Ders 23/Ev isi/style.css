@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.hamisi {
+   
+    width: 500px;
+    border: 3px solid #999999;
+    padding: 50px;
+    height: 100vh;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.content h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.bir {
+    color: #505050;
+    text-align: left;
+
+}
+
+.iki {
+    color: #B12704; 
+    font-weight: bold;
+    text-align: left;
+}
+
+.melumat {
+    background-color: #ebebeb;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.add {
+    text-decoration: none;
+    color: #853ae0; 
+    margin-right: 40px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 1px;
+    
+}
+
+.add:hover{
+    text-decoration: underline;
+}
+.buy{
+    text-decoration: none;
+    color: #853ae0;  
+   margin-right: 40px;
+    font-size: 18px;
+   padding-left: 1px;
+}
+.buy:hover{
+    text-decoration: underline;
+}
+.back {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: underline !important;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 5px;
+}
