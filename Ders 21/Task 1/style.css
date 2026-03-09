@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+button{
+    margin-top: 100px;
+}
