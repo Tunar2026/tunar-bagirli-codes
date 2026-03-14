@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url(./Tapşırığıın\ arxa\ fon\ şəkli.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.menyu {
+    width: 200px;
+    background-color: #363636;
+    height: 100vh; 
+    padding: 15px;
+}
+
+.baslıq {
+    color: white;
+    margin-bottom: 30px;
+}
+
+ h2 {
+    display: inline; 
+}
+
+.menyu-linki {
+    display: block; 
+    color: white;
+    text-decoration: none; 
+    padding: 15px;
+    border: 1px solid gray; 
+    margin-bottom: 20px; 
+    text-align: left;
+}
+
+.qara {
+    background-color: black;
+    border-color: white;
+}
+
+.menyu-linki:hover {
+    background-color: black;
+    border-color: white;
+}
+
+.menyu-linki i {
+    float: right; 
+}
