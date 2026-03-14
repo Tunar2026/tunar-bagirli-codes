@@ -6,7 +6,7 @@
     
 }
 
-.hamisi {
+#hamisi {
    
     width: 500px;
     border: 3px solid #999999;
@@ -23,13 +23,13 @@ img {
     height: auto;
 }
 
-.content h2{
+#content h2{
     font-size: 20px;
     margin-bottom: 5px;
     text-align: left;
 }
 
-.bir {
+#bir {
     color: #505050;
     text-align: left;
 
@@ -41,7 +41,7 @@ img {
     text-align: left;
 }
 
-.melumat {
+#melumat {
     background-color: #ebebeb;
     padding: 15px;
     margin: 15px 0;
@@ -58,7 +58,7 @@ li {
     font-size: 15px;
 }
 
-.add {
+#add {
     text-decoration: none;
     color: #853ae0; 
     margin-right: 40px;
@@ -68,20 +68,20 @@ li {
     
 }
 
-.add:hover{
+#add:hover{
     text-decoration: underline;
 }
-.buy{
+#buy{
     text-decoration: none;
     color: #853ae0;  
    margin-right: 40px;
     font-size: 18px;
    padding-left: 1px;
 }
-.buy:hover{
+#buy:hover{
     text-decoration: underline;
 }
-.back {
+#back {
     display: inline-block;
     margin-top: 10px;
     text-decoration: underline !important;

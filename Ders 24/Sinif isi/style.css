@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    height: 60vh;
+    width: 21%;
+    background-color: aquamarine;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td{
+    text-align: center;
+}
