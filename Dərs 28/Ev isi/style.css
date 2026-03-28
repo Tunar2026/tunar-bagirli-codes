@@ -37,7 +37,7 @@ form {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
-    border: 1 px solid  #dddfe2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;    /* müəllim bu cədvəldəkiləri alt-alta düzür */
     
