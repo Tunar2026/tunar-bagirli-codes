@@ -1,0 +1,14 @@
+ 
+
+label{
+    display: block;
+}
+
+button{
+    display: block;
+    margin-top: 10px;
+    background-color: rgb(87, 136, 136);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
