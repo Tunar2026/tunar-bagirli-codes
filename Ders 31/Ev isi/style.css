@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Hamısı{
+    background: #e0ece6;
+    padding: 20px;
+    border-radius: 15px;
+    width: 40%;
+    color: #1a5e42;
+    margin: 10px auto;
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+small{
+    padding: 10px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+
+ input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+}
+
+.birinci{
+    padding-left: 15px;
+    width: 40%;
+    display: inline-block;
+}
+
+.signature{
+    border-radius: 15px;
+    width: 100%;
+    display: block;
+    resize: none;
+}
+.clear{
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    margin-top: 5px;
+}
+
+.submit{
+    background: #0b513d;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 25px;
+    display: block;
+    margin: 25px auto 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
