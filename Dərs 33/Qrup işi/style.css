@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
-/* Temel Ayarlar */
+
 *⁠⁠{
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
     padding: 0 20px;
 }
 
-/* başlıq */
+
 .başlıq {
     width: 100%;
     height: 250px;
@@ -41,7 +41,7 @@ body {
     margin-top: -10px;
 }
 
-/* Kanal Bilgileri */
+
 .info {
     background: white;
     padding-top: 20px;
@@ -82,7 +82,7 @@ body {
     cursor: pointer;
 }
 
-/* Menü */
+
 .kanal ul {
     display: flex;
     list-style: none;
