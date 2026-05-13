@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Saira Stencil", sans-serif;
+}
+nav{
+    position: fixed;
+    background-color: blue;
+    width: 100vw;
+    height: 40px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+}
+.My_site{
+    margin-right: 1000px;
+    margin-left: 10px;
+}
+img{
+    width: 100px;
+}
+body{
+    background-color: #f8f9fa;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.orta{
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    left: 550px;
+    padding: 30px;
+    text-align: center;
+    height: 350px;
+    position: relative;
+    top: 200px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12),
+                0 4px 10px rgba(0, 0, 0, 0.08);
+}
+span{
+    color: blue;
+}
+.small{
+    width: 300px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 30px;
+}
+i{
+    font-size: 30px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.fa-comments{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+
+.status{
+    background-color: green;
+    color: aqua;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 240px;
+}
+p{
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    left: 600px;
+    top: 340px;
+}
+
