@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+  background-color:rgb(188, 249, 255);
+}
+
+nav{
+  width:100%;
+  background:#2f8cab;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 50px;
+  height:70px;
+}
+
+h1{
+  color:white;
+  font-size:40px;
+  font-weight:bold;
+}
+
+.menu{
+  list-style:none;
+  display:flex;
+  align-items:center;
+}
+
+.menu li {
+  text-decoration:none;
+  color:white;
+  padding:30px 30px;
+  display:block;
+  font-weight:bold;
+  position:relative;
+}
+
+.menu li:hover{
+  background:rgba(255,255,255,0.1);
+}
+
+
+.aşağı{
+  position:absolute;
+  top:70px;
+  left:0;
+  width:177px;
+  background:#2f8cab;
+  list-style:none;
+  display:none;
+}
+
+.aşağı li{
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.menu li:hover .aşağı{
+  display:block;
+}
+
+.more{
+  position:relative;
+}
+
+.sağ{
+  position:absolute;
+  top:0;
+  left:170px;
+  width:200px;
+  background:#2f8cab;
+  list-style:none;
+  display:none;
+}
+
+.more:hover .sağ{
+  display:block;
+}
+
+
+span{
+  color:white;
+  font-size:28px;
+  cursor:pointer;
+}
+
