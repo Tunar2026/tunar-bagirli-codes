@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+div{
+    width: 350px;
+    height: 350px;
+    background-image: url(./qadhnsnhkmfywi4iflve.webp);
+    background-size: cover;
+    margin: 15px auto;
+    position: relative;
+}
+
+div::after , div::before{
+    content:"";
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div::before{
+    background-image: url(./istockphoto-509980631-612x612.jpg);
+    right: -370px;
+}
+
+div::after{
+    left: -370px;
+    background-image: url(./pexels-helena-lopes-1389339-1.jpg);
+}

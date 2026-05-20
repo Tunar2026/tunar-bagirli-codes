@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lawngreen;
+}
+
+div{
+    width: 350px;
+    height: 350px;
+    background-image: url(./34.jpg);
+    background-size: cover;
+    margin: 15px auto;
+    position: relative;
+}
+
+div::after , div::before{
+    content:"";
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div::before{
+    background-image: url(./Lucky-Way-Travel-Ingiltere-Turu-Tour-London3-870x555.jpg.webp);
+    right: -370px;
+}
+
+div::after{
+    left: -370px;
+    background-image: url(./shutterstock_667548661-scaled.webp);
+}

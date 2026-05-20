@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-image: url(./miau.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Orta{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 1000px;
+    background-color: black;
+    position: relative;
+    top: 200px;
+    padding: 50px;
+    border-radius: 0 25px 25px 0;
+}
+span{
+    color: rgb(179, 118, 7);
+}
+.sol{
+    width: 300px;
+}
+p{
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    padding: 5px;
+    margin-top: 200px;
+}
+
+h3{
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 60px;
+}
+img{
+    width: 300px;
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+    box-shadow: 15px 15px 25px rgba(245, 166, 35, 0.65),
+              25px 25px 35px rgba(245, 166, 35, 0.4);
+    border-radius: 20px;
+}
+
+h2{
+    background-color: rgb(177, 151, 151);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 470px;
+    bottom: 260px;
+    z-index: 1;
+}
+h4{
+    color: aqua;
+    position: relative;
+    left: 490px;
+    bottom: 320px;
+    z-index: 2;
+    font-size: 20px;
+}
