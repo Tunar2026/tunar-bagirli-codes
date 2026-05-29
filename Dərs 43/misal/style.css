@@ -1,0 +1,39 @@
+@font-face{
+    font-family: Ayxan;
+    src: url(./Platinum\ Sign\ Under.ttf);
+}
+
+@font-face{
+    font-family:Tunar;
+    src: url(./Platinum\ Sign\ Over.ttf);
+}
+
+@font-face{
+    font-family:Sağol;
+    src: url(./Platinum\ Sign.ttf);
+}
+
+@font-face{
+    font-family:Hüseyn;
+    src: url(./BEATTECH-Line.ttf);
+}
+
+@font-face{
+    font-family:Musa;
+    src: url(./BEATTECH.ttf);
+}
+h1{
+    font-family: Ayxan;
+}
+h2{
+    font-family:Tunar;
+}
+h3{
+    font-family:Sağol;
+}
+h4{
+    font-family:Hüseyn;
+}
+h5{
+    font-family:Musa;
+}
