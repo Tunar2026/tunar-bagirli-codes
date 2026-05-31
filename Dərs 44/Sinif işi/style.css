@@ -1,0 +1,192 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Səhifə düzəlişi */
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background: #2f8cab;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 50px;
+    position: relative;
+    z-index: 999; /* Alt menyuların kartın arxasında qalmaması üçün */
+}
+
+.logo img {
+    height: 35px; /* Şəklin navbarı dağıtmaması üçün sabit hündürlük */
+    width: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Əsas menyu elementləri */
+.menu > li {
+    color: white;
+    padding: 15px 20px; /* klik sahəsini rahatlaşdırdıq */
+    display: inline-block;
+    font-weight: bold;
+    position: relative; /* Alt menyuların buna nəzərən düzəlməsi üçün */
+    cursor: pointer;
+}
+
+.menu > li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Bütün alt menyuların ortaq başlanğıc vəziyyəti */
+.aşağı, .aşağı-x {
+    position: absolute;
+    top: 100%; /* Tam olaraq əsas menyunun altından başlasın */
+    left: 0;
+    width: 150px;
+    background: #2f8cab;
+    list-style: none;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.aşağı li, .aşağı-x li {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    color: white;
+    font-weight: normal;
+}
+
+.aşağı li:hover, .aşağı-x li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Hover funksiyaları (Həm Əlaqə, həm Xidmətlər üçün) */
+.menu li:hover .aşağı,
+.xidmetler:hover .aşağı-x {
+    display: block;
+}
+
+/* Üçüncü mərtəbə alt menyu (More ▶️) */
+.more {
+    position: relative;
+}
+
+.sağ {
+    position: absolute;
+    top: 0;
+    left: 100%; /* "More" sözünün tam sağından açılsın */
+    width: 180px;
+    background: #2f8cab;
+    list-style: none;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.more:hover .sağ {
+    display: block;
+}
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart {
+    background: white;
+    width: 350px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+}
+
+.status {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.profile-img img {
+    width: 120px; /* vw yerinə sabit ölçü kart daxilində daha düzgün olacaq */
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 22px;
+    color: #333;
+    font-family: "Libre Baskerville", serif;
+}
+
+h3 {
+    color: #5c6bc0;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+.cart-yazı {
+    font-size: 15px;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.icons a {
+    color: #333;
+    font-size: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    color: #888;
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #5c6bc0;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
