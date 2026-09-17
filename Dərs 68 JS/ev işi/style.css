@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d0d1a;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 40px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-left: 350px;
+  margin-bottom: 60px;
+}
+
+.clock {
+  width: 75%;
+  margin: auto;
+  background: #2995df;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px #168ee0;
+}
+
+#date {
+  display: block;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-bottom: 35px;
+}
+
+#time {
+  display: block;
+  font-size: 85px;
+  letter-spacing: 5px;
+}
