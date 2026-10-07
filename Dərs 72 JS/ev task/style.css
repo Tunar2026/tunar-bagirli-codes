@@ -1,0 +1,58 @@
+body {
+  background-color: #f5f7fa;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* NavBar */
+.navbar-brand {
+  color: #ffd43b !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.navbar .nav-link:hover {
+  color: #ffd43b;
+}
+.dropdown-item:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Karusel */
+.carousel {
+  width: 80%;
+  margin: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+/* Kartlar */
+.card {
+  flex: 1;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Alt səhifələr */
+.info-img {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  font-weight: 700;
+  color: #007bff;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Başlıq -->
+        <h3 class="text-center mb-4">Anbar Üzrə Yeni Məhsul Girişi</h3>
+
+        <!-- Form Bölməsi -->
+        <div class="form-hissəsi">
+
+            <div class="row mb-3">
+
+                <div class="col-md-4">
+                    <label class="form-label text-muted">Kateqoriya</label>
+
+                    <input
+                        type="text"
+                        id="kateqoriyaGiris"
+                        class="form-control"
+                        placeholder="Məs. Elektronika">
+
+                    <img
+                        id="sekilOnBaxis"
+                        class="onbaxis-sekli"
+                        alt="Açılmayan önbaxış şəkli">
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label text-muted">Stok Sayı</label>
+
+                    <input
+                        type="number"
+                        id="sayGiris"
+                        class="form-control"
+                        placeholder="Min. 1">
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label text-muted">Şəkil Linki</label>
+
+                    <input
+                        type="text"
+                        id="sekilLinkGiris"
+                        class="form-control">
+                </div>
+
+            </div>
+
+            <!-- Əlavə et düyməsi -->
+            <button
+                id="elaveEtDuymesi"
+                class="btn btn-success w-100 fw-bold">
+                Məlumatı Əlavə Et
+            </button>
+
+        </div>
+
+
+        <!-- Cədvəl -->
+
+        <table class="table table-bordered text-center bg-white">
+
+            <thead class="thead-dark">
+                <tr>
+                    <th>Məhsul kodu</th>
+                    <th>Kateqoriya</th>
+                    <th>Stok sayı</th>
+                    <th>Məhsulun şəkli</th>
+                </tr>
+            </thead>
+
+            <tbody id="cedvelGovdesi">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>

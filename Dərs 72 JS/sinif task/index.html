@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maşın</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">🚗🚙</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Ana səhifə</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Maşınlar</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="bmw.html">BMW</a></li>
+              <li><a class="dropdown-item" href="mers.html">Mercedes</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Axtarış et">
+          <button class="btn btn-outline-light" type="button">Axtar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- KARUSEL -->
+  <div class="container my-4">
+    <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./2019-bmw-m2-competition-front-three-quarter-in-motion-19.avif" class="d-block w-100" alt="BMW">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>BMW</h5>
+            <p>Sürücülük zövqü.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./clvaligib2c5g0tm13fo8cs2p-partnership-mercedesamg-hero-01.full.webp" class="d-block w-100" alt="Mercedes">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mercedes-Benz</h5>
+            <p>Lüks və komfort.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images.jpeg" class="d-block w-100" alt="Avtomobillər">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Avtomobil dünyası</h5>
+            <p>Ən yaxşı markalar bir yerdə.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+ 
+  <div class="container mb-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./2019-bmw-m2-competition-front-three-quarter-in-motion-19.avif" class="card-img-top" alt="Maşın 1">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./clvaligib2c5g0tm13fo8cs2p-partnership-mercedesamg-hero-01.full.webp" class="card-img-top" alt="Maşın 2">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./2019-bmw-m2-competition-front-three-quarter-in-motion-19.avif" class="card-img-top" alt="Maşın 3">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./clvaligib2c5g0tm13fo8cs2p-partnership-mercedesamg-hero-01.full.webp" class="card-img-top" alt="Maşın 4">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

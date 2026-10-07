@@ -1,0 +1,22 @@
+body {
+    background-color: aliceblue;
+}
+
+.form-hissəsi {
+    background-color: white;
+    border: 1px solid rgb(0, 157, 255);
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Cədvəlin şəkil hissəsi üçün */
+/* Bunu axtarıb tapacağıq */
+
+.onbaxis-sekli {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-top: 10px;
+    display: none;
+}
